@@ -43,16 +43,31 @@ export default function About() {
           </span>{" "}
           ls
         </p>
-        <p style={{ color: info.baseColor }}> Development possible</p>
+
+        <p style={{ color: info.baseColor }}> 프레임워크</p>
         <ul className={Style.skills}>
-          {info.skills.proficientWith.map((proficiency, index) => (
-            <li key={index}>{proficiency}</li>
+          {info.skills.framework.map((skill, index) => (
+            <li key={index}>{skill}</li>
           ))}
         </ul>
 
-        <p style={{ color: info.baseColor }}> Language</p>
+        <p style={{ color: info.baseColor }}> 언어</p>
         <ul className={Style.skills}>
-          {info.skills.exposedTo.map((skill, index) => (
+          {info.skills.language.map((skill, index) => (
+            <li key={index}>{skill}</li>
+          ))}
+        </ul>
+
+        <p style={{ color: info.baseColor }}> 데이터베이스</p>
+        <ul className={Style.skills}>
+          {info.skills.database.map((skill, index) => (
+            <li key={index}>{skill}</li>
+          ))}
+        </ul>
+
+        <p style={{ color: info.baseColor }}> 플랫폼</p>
+        <ul className={Style.skills}>
+          {info.skills.tool.map((skill, index) => (
             <li key={index}>{skill}</li>
           ))}
         </ul>
@@ -107,13 +122,14 @@ export default function About() {
           </span>{" "}
           ls
         </p>
+        <p style={{ color: info.baseColor }}> 할 수 있는 개발</p>
         <ul>
-          {info.hobbies.map((hobby, index) => (
+          {info.canDoIt.map((it, index) => (
             <li key={index}>
               <Box component={"span"} mr={"1rem"}>
-                {hobby.emoji}
+                {it.content}
               </Box>
-              {hobby.label}
+              {it.label}
             </li>
           ))}
         </ul>

@@ -32,38 +32,51 @@ export const info = {
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: "☕",
-      text: "fueled by coffee",
+      emoji: "👨‍🦱",
+      text: "이름 : 오의석",
     },
     {
       emoji: "📆",
-      text: "1995.05.12",
+      text: "생년월일 : 1995.05.12",
     },
     {
       emoji: "📞",
-      text: "010-2016-2083",
+      text: "전화번호 : 010-2016-2083",
     },
     {
       emoji: "📧",
-      text: "uiseok0512@naver.com",
+      text: "이메일 : uiseok0512@naver.com",
+    },
+    {
+      emoji: "🏫",
+      text: "교육 : 삼성청년SW아카데미 (22.07.06 ~ 23.06.30)",
+    },
+    {
+      emoji: "🏢",
+      text: "경력 : 임베디드 리눅스 개발 (19.07.01 ~ 22.02.25)",
     },
   ],
   socials: [
     {
       link: "https://velog.io/@uiseok",
-      icon: "fa fa-facebook",
-      label: "velog",
-    },
-    {
-      link: "https://www.notion.so/640a951135fe40e685a02bd497009dfc?pvs=4",
-      icon: "fa fa-instagram",
-      label: "instagram",
+      icon: "fa fa-info-circle",
+      label: "Velog",
     },
     {
       link: "https://github.com/ohuiseok",
       icon: "fa fa-github",
-      label: "github",
+      label: "Github",
     },
+    // {
+    //   link: "https://github.com/ohuiseok",
+    //   icon: "fa fa-graduation-cap",
+    //   label: "Education",
+    // },
+    // {
+    //   link: "https://github.com/ohuiseok",
+    //   icon: "fa fa-building",
+    //   label: "Company",
+    // },
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
@@ -80,6 +93,10 @@ export const info = {
       "figma",
     ],
     exposedTo: ["nodejs", "python", "adobe illustrator"],
+    framework: ["Spring ★★★★☆", "Flask ★★★☆☆", "Express ★★☆☆☆"],
+    language: ["Java ★★★★☆", "python ★★☆☆☆", "C++ ★★★☆☆"],
+    database: ["MariaDB", "MySQL", "MongoDB", "Redis"],
+    tool: ["ElasticSearch", "Kafka", "Jenkins", "Docker"],
   },
   hobbies: [
     {
@@ -97,6 +114,62 @@ export const info = {
     {
       label: "cooking",
       emoji: "🌶",
+    },
+    // Same as above, change the emojis to match / relate to your hobbies or interests.
+    // You can also remove the emojis if you'd like, I just think they look cute :P
+  ],
+  canDoIt: [
+    {
+      label: "QueryDSL과 JPA를 이용한 데이터베이스 매핑",
+      content: "[Back-End]",
+    },
+    {
+      label: "Spring MVC 패턴 & RestFul API 구현 가능",
+      content: "[Back-End]",
+    },
+    {
+      label: "스프링 시큐리티, Oauth2.0, JWT를 이용한 소셜 로그인",
+      content: "[Back-End]",
+    },
+    {
+      label: "Kafka와 Webflux의 SSE를 이용한 채팅 서비스",
+      content: "[Back-End]",
+    },
+    {
+      label: "ElasticSearch를 이용한 검색 엔진 활용",
+      content: "[Back-End]",
+    },
+    {
+      label: "스프링 스케쥴링",
+      content: "[Back-End]",
+    },
+    {
+      label: "Kurento를 이용한 WebRTC 시그널링 서버",
+      content: "[Back-End]",
+    },
+    {
+      label: "Flask 프레임워크에서 Knn 추천 알고리즘 적용",
+      content: "[Back-End]",
+    },
+    {
+      label: "Vue를 이용한 컴포넌트 설계 및 서버통신",
+      content: "[Front-End]",
+    },
+    {
+      label: "Gitlab,Jenkins,Docker를 이용한 자동배포",
+      content: "[CI/CD]",
+    },
+    {
+      label: "무중단 배포",
+      content: "[CI/CD]",
+    },
+    {
+      label: "SonarQube를 이용한 정적분석",
+      content: "[CI/CD]",
+    },
+    {
+      label: "S3를 이용한 파일 관리",
+      content: "[Server]",
     },
     // Same as above, change the emojis to match / relate to your hobbies or interests.
     // You can also remove the emojis if you'd like, I just think they look cute :P
