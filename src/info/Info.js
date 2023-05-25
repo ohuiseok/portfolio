@@ -94,7 +94,7 @@ export const info = {
     ],
     exposedTo: ["nodejs", "python", "adobe illustrator"],
     framework: ["Spring ★★★★☆", "Flask ★★★☆☆", "Express ★★☆☆☆"],
-    language: ["Java ★★★★☆", "python ★★☆☆☆", "C++ ★★★☆☆"],
+    language: ["Java ★★★★☆", "python ★★☆☆☆", "C ★★★☆☆"],
     database: ["MariaDB", "MySQL", "MongoDB", "Redis"],
     tool: ["ElasticSearch", "Kafka", "Jenkins", "Docker"],
   },
